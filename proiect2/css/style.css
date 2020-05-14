@@ -1,0 +1,471 @@
+body{
+  font-family: Arial, Helvetica,sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding:0;
+  margin:0;
+  background-color:#5F9EA0;
+}
+
+
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+
+.button_1{
+  height:38px;
+  background:#5F9EA0;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#ffffff;
+}
+
+.dark{
+  padding:15px;
+  background:#5F9EA0;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+/* Header **/
+header{
+  background:#5F9EA0;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:100px;
+  border-bottom:#DEB887 3px solid;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px;
+}
+
+header #logo{
+  float:left;
+}
+
+header #logo h1{
+  margin:0;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;/*mai jos*/
+}
+
+header .highlight, header .current a{
+  color:#DEB887;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+
+header label {
+    display: block;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+    line-height: 20px;
+}
+
+header label {
+    float: right;
+    padding: 18px 20px;
+    cursor: pointer;
+}
+
+header label:after {
+    content: "\2261";
+    font-size: 1.8em;
+}
+
+#nav { display: none; }
+
+#nav:checked ~ nav {
+    /*max-height: 50px; !* This can be anything bigger than your nav height. The transition duration works with this *!*!*/
+}
+
+header label { display: none; }
+
+
+
+/* ul {
+ margin: 0px;
+ padding: 0px;
+ list-style: none;
+ font-family: arial;
+}
+
+ul li {
+ float: left;
+ width: 200px;
+ height: 40px;
+ background-color: black;
+ opacity: .8;
+ line-height: 40px;
+ text-align: center;
+ font-size: 20px;
+}
+
+ul li a {
+ text-decoration: none;
+ color: white;
+ display: block;
+}
+
+ul li a:hover {
+ background-color: green;
+}
+
+ul li ul li{
+ display: none;
+}
+
+ul li:hover ul li {
+ display: block;
+} */
+
+
+.nav ul {list-style: none;padding: 15px;margin: 0px;}
+.nav ul li {display: block;position: relative;float: left;}
+.nav li ul {display: none;}
+.nav ul li a {display: block;padding: 5px 10px 5px 10px;text-decoration: none;
+    white-space: nowrap;color: #fff;}
+.nav li:hover ul {display: block; position: absolute;}
+.nav li ul li {border-top: 0px;}
+
+
+
+#showcase{
+  min-height:400px;
+  text-align:center;
+  color:#ffffff;
+/*  slider {*/
+/* display: block;*/
+/* width: 100%;*/
+/* height: 100%;*/
+/* background-color: #1f1f1f;*/
+/* overflow: hidden;*/
+/* position: absolute;*/
+/*}*/
+
+/*slider > * {*/
+/* position: absolute;*/
+/* display: block;*/
+/* width: 100%;*/
+/* height: 100%;*/
+/* background: #1f1f1f;*/
+/* animation: slide 12s infinite;*/
+/* overflow: hidden;*/
+/*}*/
+
+/*slide:nth-child(1){*/
+/* left: 0%;*/
+/* animation-delay: -1s;*/
+/* background-image: url("../img/1.jpg");*/
+/* background-size: cover;*/
+/* background-position: center;*/
+/*}*/
+
+/*slide:nth-child(2){*/
+/* animation-delay: 2s;*/
+/* background-image: url("../img/2.jpg");*/
+/* background-size: cover;*/
+/* background-position: center;*/
+/*}*/
+
+/*slide:nth-child(3){*/
+/* animation-delay: 5s;*/
+/* background-image: url("../img/3.jpg");*/
+/* background-size: cover;*/
+/* background-position: center;*/
+/*}*/
+
+/*slide p {*/
+/* font-family: Comfortaa;*/
+/* font-size: 70px;*/
+/* text-align: center;*/
+/* display: inline-block;*/
+/* width: 100%;*/
+/* margin-top: 340px;*/
+/* color: #fff;*/
+/*}*/
+
+/*@keyframes slide {*/
+/* 0% { left: 100%; width: 100%; }*/
+/* 5% { left: 0%; }*/
+/* 25% { left: 0%; }*/
+/* 30% { left: -100%; width: 100%; }*/
+/* 30.0001% { left: -100%; width: 0%; }*/
+/* 100% { left: 100%; width: 0%; }*/
+/*}*/
+
+}
+
+/* SLIDER without @keyframes */
+/* .slider{
+    margin: 0 auto;
+    margin-top: 20px;
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 70vh;
+}
+.slide_img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.slide_img img{
+    width: 100%;
+    height: 100%;
+}
+#i1, #i2, #i3{
+    display: none;
+}
+.pre, .nxt{
+    width: 12%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background: rgba(88, 88, 88, .4);
+    z-index: 99;
+    cursor: pointer;
+}
+.pre{
+    left: 0;
+}
+.nxt{
+    right: 0;
+}
+.slide_img{
+
+    z-index: -1;
+}
+#i1:checked ~ #one,
+#i2:checked ~ #two,
+#i3:checked ~ #three{
+    z-index: 9;
+} */
+
+/* ========================= */
+
+/* SLIDER with @keyframes */
+
+div#slider {
+    overflow: hidden;
+    margin: auto;
+    width: 100%;
+    max-width: 80%;
+    max-height: 500px;
+}
+div#slider div {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    font-size: 0;
+    animation: 20s slider infinite;
+}
+div#slider div img {
+    width: 20%;
+    float: left;
+}
+@keyframes slider {
+    0% {
+        left: 0%;
+    }
+    20% {
+        left: 0%;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+}
+
+
+
+/* ========================= */
+
+#showcase h1{
+  margin-top:100px;
+  font-size:55px;
+  margin-bottom:10px;
+}
+
+#showcase p{
+  font-size:20px;
+}
+
+
+#newsletter{
+  padding:15px;
+  color:#ffffff;
+  background:#DEB887
+}
+
+#newsletter h1{
+  float:left;
+}
+
+#newsletter form {
+  float:right;
+  margin-top:15px;
+}
+
+#newsletter input[type="email"]{
+  padding:4px;
+  height:25px;
+  width:250px;
+}
+
+
+#functionalities{
+  margin-top:20px;
+}
+
+#functionalities .box{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+
+#functionalities .box img{
+  width:90px;
+}
+
+
+aside#sidebar{
+  float:right;
+  width:30%;
+  margin-top:10px;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+  width:90%;
+  padding:5px;
+}
+
+
+article#main-col{
+  float:left;
+  width:65%;
+}
+
+
+ul#services li{
+  list-style: none;
+  padding:20px;
+  border: #cccccc solid 1px;
+  margin-bottom:5px;
+  background:#e6e6e6;
+}
+
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color:#DEB887;
+  text-align: center;
+}
+
+
+@media(max-width: 768px){
+  header #logo,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form,
+  #functionalities .box,
+  article#main-col,
+  aside#sidebar{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+
+  header{
+    padding-bottom:20px;
+  }
+
+
+    header label { display: inline-block; }
+
+    nav{
+        width: auto;
+        height: auto;
+    }
+
+
+    #nav:checked ~ nav {
+        width: auto;
+        max-height: 50px; !* This can be anything bigger than your nav height. The transition duration works with this *!*/
+    }
+
+    nav ul {
+        padding: 0;
+        padding-right: 10px;
+    }
+
+    nav li {
+        display: inline-block;
+        text-align: left;
+    }
+
+    header nav a {
+        display: inline-block;
+        padding: 20px 10px;
+        width: auto;
+    }
+
+
+
+
+  #showcase h1{
+    margin-top:40px;
+  }
+
+  #newsletter button, .quote button{
+    display:block;
+    width:100%;
+  }
+
+  #newsletter form input[type="email"], .quote input, .quote textarea{
+    width:100%;
+    margin-bottom:5px;
+  }
+}
