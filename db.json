@@ -1,0 +1,19 @@
+{
+  "todo": [
+    {
+      "content": "do sports",
+      "id": 2
+    }
+  ],
+  "done": [
+    {
+      "content": "drink water",
+      "id": 1
+    }
+  ],
+  "users":[
+    "id":1,
+    "username": "Alexandra",
+    "parola": "babypandabob"
+  ]
+}
